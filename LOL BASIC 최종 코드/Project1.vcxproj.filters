@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="소스.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project1.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\UI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="가렌.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="갈리오.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="갱플랭크.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="그라가스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="그레이브즈.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="나르.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="나미.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="나서스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="노틸러스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="녹턴.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="누누와 월럼프.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="니달리.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="니코.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="다리우스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="다이애나.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="드레이븐.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="라이즈.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="라칸.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="람머스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="럭스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="럼블.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="레넥톤.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="레오나.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="렉사이.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="렝가.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="루시안.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="룰루.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="르블랑.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="리븐.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="리산드라.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="리신.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="마스터 이.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="마오카이.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="말자하.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="말파이트.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="모데카이저.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="모르가나.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="문도 박사.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="미스 포츈.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="바드.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="바루스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="바이.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="베이가.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="베인.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="벨코즈.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="볼리베어.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="브라움.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="브랜드.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="블라디미르.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="블리츠크랭크.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="빅토르.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="뽀삐.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="사이온.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="사일러스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="샤코.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="세주아니.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="소나.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="소라카.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="쉔.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="쉬바나.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="스웨인.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="스카너.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="시비르.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="신 짜오.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="신드라.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="신지드.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="쓰레쉬.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="아리.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="아무무.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="아우렐리온 솔.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="아이번.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="아지르.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="아칼리.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="아트록스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="알리스타.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="애니.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="애니비아.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="애쉬.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="야스오.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="에코.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="엘리스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="오공.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="오른.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="오리아나.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="올라프.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="요릭.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="우디르.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="우르곳.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="워윅.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="유미.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="이렐리아.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="이블린.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="이즈리얼.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="일라오이.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="자르반 4세.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="자야.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="자이라.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="자크.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="잔나.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="잭스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="제드.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="제라스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="제이스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="조이.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="직스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="진.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="질리언.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="징크스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="초가스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="카르마.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="카밀.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="카사딘.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="카서스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="카시오페아.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="카이사.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="카직스.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="카타리나.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="칼리스타.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="케넨.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="케이틀린.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="케인.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="케일.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="코그모.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="코르키.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="퀸.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="클레드.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="킨드레드.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="타릭.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="탈론.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="탈리야.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="탐 켄치.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="트런들.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="트리스타나.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="트린다미어.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="트위스티드 페이트.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="트위치.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="티모.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="파이크.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="판테온.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="피들스틱.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="피오라.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="피즈.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="하이머딩거.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="헤카림.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="1검정배경화면.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2.롤 초기 화면.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="3검정배경화면.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\220px-League_of_Legends_logo.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dims.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\dims.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

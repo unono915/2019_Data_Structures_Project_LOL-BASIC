@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{AA9BE697-AA45-48E0-BA5A-60994B933CC9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="소스.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\UI.rc" />
+    <ResourceCompile Include="Project1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\220px-League_of_Legends_logo.bmp" />
+    <Image Include="..\..\..\dims.bmp" />
+    <Image Include="1검정배경화면.bmp" />
+    <Image Include="2.롤 초기 화면.bmp" />
+    <Image Include="3검정배경화면.bmp" />
+    <Image Include="dims.bmp" />
+    <Image Include="가렌.bmp" />
+    <Image Include="갈리오.bmp" />
+    <Image Include="갱플랭크.bmp" />
+    <Image Include="그라가스.bmp" />
+    <Image Include="그레이브즈.bmp" />
+    <Image Include="나르.bmp" />
+    <Image Include="나미.bmp" />
+    <Image Include="나서스.bmp" />
+    <Image Include="노틸러스.bmp" />
+    <Image Include="녹턴.bmp" />
+    <Image Include="누누와 월럼프.bmp" />
+    <Image Include="니달리.bmp" />
+    <Image Include="니코.bmp" />
+    <Image Include="다리우스.bmp" />
+    <Image Include="다이애나.bmp" />
+    <Image Include="드레이븐.bmp" />
+    <Image Include="라이즈.bmp" />
+    <Image Include="라칸.bmp" />
+    <Image Include="람머스.bmp" />
+    <Image Include="럭스.bmp" />
+    <Image Include="럼블.bmp" />
+    <Image Include="레넥톤.bmp" />
+    <Image Include="레오나.bmp" />
+    <Image Include="렉사이.bmp" />
+    <Image Include="렝가.bmp" />
+    <Image Include="루시안.bmp" />
+    <Image Include="룰루.bmp" />
+    <Image Include="르블랑.bmp" />
+    <Image Include="리븐.bmp" />
+    <Image Include="리산드라.bmp" />
+    <Image Include="리신.bmp" />
+    <Image Include="마스터 이.bmp" />
+    <Image Include="마오카이.bmp" />
+    <Image Include="말자하.bmp" />
+    <Image Include="말파이트.bmp" />
+    <Image Include="모데카이저.bmp" />
+    <Image Include="모르가나.bmp" />
+    <Image Include="문도 박사.bmp" />
+    <Image Include="미스 포츈.bmp" />
+    <Image Include="바드.bmp" />
+    <Image Include="바루스.bmp" />
+    <Image Include="바이.bmp" />
+    <Image Include="베이가.bmp" />
+    <Image Include="베인.bmp" />
+    <Image Include="벨코즈.bmp" />
+    <Image Include="볼리베어.bmp" />
+    <Image Include="브라움.bmp" />
+    <Image Include="브랜드.bmp" />
+    <Image Include="블라디미르.bmp" />
+    <Image Include="블리츠크랭크.bmp" />
+    <Image Include="빅토르.bmp" />
+    <Image Include="뽀삐.bmp" />
+    <Image Include="사이온.bmp" />
+    <Image Include="사일러스.bmp" />
+    <Image Include="샤코.bmp" />
+    <Image Include="세주아니.bmp" />
+    <Image Include="소나.bmp" />
+    <Image Include="소라카.bmp" />
+    <Image Include="쉔.bmp" />
+    <Image Include="쉬바나.bmp" />
+    <Image Include="스웨인.bmp" />
+    <Image Include="스카너.bmp" />
+    <Image Include="시비르.bmp" />
+    <Image Include="신 짜오.bmp" />
+    <Image Include="신드라.bmp" />
+    <Image Include="신지드.bmp" />
+    <Image Include="쓰레쉬.bmp" />
+    <Image Include="아리.bmp" />
+    <Image Include="아무무.bmp" />
+    <Image Include="아우렐리온 솔.bmp" />
+    <Image Include="아이번.bmp" />
+    <Image Include="아지르.bmp" />
+    <Image Include="아칼리.bmp" />
+    <Image Include="아트록스.bmp" />
+    <Image Include="알리스타.bmp" />
+    <Image Include="애니.bmp" />
+    <Image Include="애니비아.bmp" />
+    <Image Include="애쉬.bmp" />
+    <Image Include="야스오.bmp" />
+    <Image Include="에코.bmp" />
+    <Image Include="엘리스.bmp" />
+    <Image Include="오공.bmp" />
+    <Image Include="오른.bmp" />
+    <Image Include="오리아나.bmp" />
+    <Image Include="올라프.bmp" />
+    <Image Include="요릭.bmp" />
+    <Image Include="우디르.bmp" />
+    <Image Include="우르곳.bmp" />
+    <Image Include="워윅.bmp" />
+    <Image Include="유미.bmp" />
+    <Image Include="이렐리아.bmp" />
+    <Image Include="이블린.bmp" />
+    <Image Include="이즈리얼.bmp" />
+    <Image Include="일라오이.bmp" />
+    <Image Include="자르반 4세.bmp" />
+    <Image Include="자야.bmp" />
+    <Image Include="자이라.bmp" />
+    <Image Include="자크.bmp" />
+    <Image Include="잔나.bmp" />
+    <Image Include="잭스.bmp" />
+    <Image Include="제드.bmp" />
+    <Image Include="제라스.bmp" />
+    <Image Include="제이스.bmp" />
+    <Image Include="조이.bmp" />
+    <Image Include="직스.bmp" />
+    <Image Include="진.bmp" />
+    <Image Include="질리언.bmp" />
+    <Image Include="징크스.bmp" />
+    <Image Include="초가스.bmp" />
+    <Image Include="카르마.bmp" />
+    <Image Include="카밀.bmp" />
+    <Image Include="카사딘.bmp" />
+    <Image Include="카서스.bmp" />
+    <Image Include="카시오페아.bmp" />
+    <Image Include="카이사.bmp" />
+    <Image Include="카직스.bmp" />
+    <Image Include="카타리나.bmp" />
+    <Image Include="칼리스타.bmp" />
+    <Image Include="케넨.bmp" />
+    <Image Include="케이틀린.bmp" />
+    <Image Include="케인.bmp" />
+    <Image Include="케일.bmp" />
+    <Image Include="코그모.bmp" />
+    <Image Include="코르키.bmp" />
+    <Image Include="퀸.bmp" />
+    <Image Include="클레드.bmp" />
+    <Image Include="킨드레드.bmp" />
+    <Image Include="타릭.bmp" />
+    <Image Include="탈론.bmp" />
+    <Image Include="탈리야.bmp" />
+    <Image Include="탐 켄치.bmp" />
+    <Image Include="트런들.bmp" />
+    <Image Include="트리스타나.bmp" />
+    <Image Include="트린다미어.bmp" />
+    <Image Include="트위스티드 페이트.bmp" />
+    <Image Include="트위치.bmp" />
+    <Image Include="티모.bmp" />
+    <Image Include="파이크.bmp" />
+    <Image Include="판테온.bmp" />
+    <Image Include="피들스틱.bmp" />
+    <Image Include="피오라.bmp" />
+    <Image Include="피즈.bmp" />
+    <Image Include="하이머딩거.bmp" />
+    <Image Include="헤카림.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
